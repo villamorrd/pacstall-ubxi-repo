@@ -1,6 +1,3 @@
-### Auto-generated for pacstall-programs
-### DO NOT EDIT. Use scripts/srcinfo.sh to build.
----
 pkgbase = ubxi-kde-desktop-git
 	gives = ubxi-kde-desktop
 	pkgver = 0.0.1
