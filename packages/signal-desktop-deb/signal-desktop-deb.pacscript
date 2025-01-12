@@ -1,0 +1,10 @@
+pkgname="signal-desktop-deb"
+gives="signal-desktop"
+breaks=("${gives}-app")
+repology=("project: ${gives}" "repo: arch")
+pkgver="7.11.1"
+source=("https://updates.signal.org/desktop/apt/pool/s/signal-desktop/signal-desktop_${pkgver}_amd64.deb")
+pkgdesc="Signal Private Messenger for Linux"
+sha256sums=("44e27669063434f643d86723750d4ec5b797282fbad27efdd4dc6cf770b227f6")
+arch=('amd64')
+maintainer=("Jon Banafato <pacstall@jonafato.com>")

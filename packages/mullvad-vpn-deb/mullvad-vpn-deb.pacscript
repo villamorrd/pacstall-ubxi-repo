@@ -1,0 +1,10 @@
+pkgname="mullvad-vpn-deb"
+gives="mullvad-vpn"
+repology=("project: ${gives}")
+breaks=("${gives}-beta-deb" "${gives}-git")
+replaces=("${gives}")
+pkgver="2024.7"
+source=("https://github.com/mullvad/mullvadvpn-app/releases/download/${pkgver}/MullvadVPN-${pkgver}_amd64.deb")
+pkgdesc="The Mullvad VPN client app for desktop"
+sha256sums=("97ab96acecccce7f1b179899cdf6bfc5f7cb22f00fb0268bc337113d15b7b74a")
+arch=('amd64')
