@@ -33,7 +33,6 @@ pkgbase = ubxi-kde-desktop-git
 	depends = aha
 	depends = clinfo
 	pacdeps = rhino-ubxi-core
-	pacdeps = unicons-git
 	replaces = unicorn-desktop
 	incompatible = debian:*
 	license = GPL-3.0-or-later

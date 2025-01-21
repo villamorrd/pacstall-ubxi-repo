@@ -7,7 +7,7 @@ depends=("plasma-desktop" "konsole" "systemsettings" "plasma-nm" "plasma-disks"
   "kscreen" "dolphin" "kdegraphics-thumbnailers" "kde-config-gtk-style" "kde-config-screenlocker"
   "breeze-gtk-theme" "xdg-desktop-portal-gtk" "xdg-desktop-portal-kde" "ufw" "vulkan-tools"
   "wayland-utils" "pulseaudio-utils" "aha" "clinfo")
-pacdeps=("rhino-ubxi-core" "unicons-git")
+pacdeps=("rhino-ubxi-core")
 optdeps=(
   "kde-spectacle: a simple application for capturing desktop screenshots"
   "ark: File archiver by KDE"
@@ -24,12 +24,12 @@ incompatible=('debian:*')
 license=('GPL-3.0-or-later')
 
 build() {
-    cd "${gives}"
-    mkdir -p "${pkgdir}/usr/share/icons"
-    mkdir -p "${pkgdir}/usr/share/wallpapers"
-    mkdir -p "${pkgdir}/usr/share/plasma/look-and-feel"
-    mkdir -p "${pkgdir}/usr/share/color-schemes"
-    mkdir -p "${pkgdir}/etc/xdg"
+  cd "${gives}"
+  mkdir -p "${pkgdir}/usr/share/icons"
+  mkdir -p "${pkgdir}/usr/share/wallpapers"
+  mkdir -p "${pkgdir}/usr/share/plasma/look-and-feel"
+  mkdir -p "${pkgdir}/usr/share/color-schemes"
+  mkdir -p "${pkgdir}/etc/xdg"
 }
 
 package() {
